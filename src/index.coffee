@@ -22,7 +22,7 @@ app.set 'view engine', 'jade'
 #### Routes
 # Routes initialization
 routes = require './routes'
-routes(app)
+routes app
 
 module.exports = app
 
